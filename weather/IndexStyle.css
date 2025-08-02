@@ -1,0 +1,49 @@
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background: url(./indexImgaes/enteryPointBg.jpg) no-repeat center/cover;
+        }
+        #front{
+            color: white;
+            margin: auto;
+            font-family: sans-serif;
+            width: 400px;
+            height: 500px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
+        .weatherImage{
+            width: 180px;
+            margin: 0 0 0 105px;
+            cursor: pointer;
+        }
+        .weather{
+            font-size: 34px;
+            margin: 15px 0 0 128px;
+        }
+        .forecasts{
+            margin: 5px 0 20px 140px;
+            font-size: 22px;
+        }
+        .getStart{
+            background: url(./indexImgaes/weatherButton.gif) center/cover;
+            background-size: 200px;
+            width: 110px;
+            padding: 5px;
+            border-radius: 20px;
+            font-size: 16px;
+            margin: 30px 0 30px 135px;
+            cursor: pointer;   
+        }
+        .check{
+            font-size: 18px;
+            margin: 5px 0 0 115px;
+        }
+        

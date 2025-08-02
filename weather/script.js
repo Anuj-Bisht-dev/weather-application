@@ -1,5 +1,3 @@
-// api = 'https://api.openweathermap.org/data/2.5/weather?q=london&appid=69162c43525d643d787c822b3dfec23e&units=metric'
-
 let APIKey = "69162c43525d643d787c822b3dfec23e",
     cityName,
     weatherValues;

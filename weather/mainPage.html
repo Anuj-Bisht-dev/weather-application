@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="mainStyle.css">
-    <title>Document</title>
+    <title>Weather Prediction</title>
 </head>
 
 <body>
     <div id="mainContainer">
 
-        <!-- search box -->
         <div id="search">
             <input type="text" id="searchBox">
             <button id="searchButton">Search</button>
         </div>
 
-        <!-- location -->
         <div id="location">
             <img src="./mainPageImage/locationImage.png" alt="location" id="locationImage">
             <p id="locationText">-----</p>
         </div>
 
-        <!-- current date -->
         <div id="date">
             <div id="year">Year</div>
             <span>-</span>
@@ -36,7 +28,6 @@
             <div id="todayDate">Date</div>
         </div>
 
-        <!-- temperature -->
         <div id="temperature">
             <div id="degreeCelcius">--</div>
             <div id="degreeCelciusText"></div>
@@ -45,40 +36,34 @@
             <img src="./mainPageImage/cloudAnimation.gif" alt="temp" id="cloudImage">
         </div>
 
-        <!-- location condition -->
         <div id="climate">-----</div>
 
         <div id="climateInfo">
-
-            <!-- climate Image -->
+            
             <div id="climateInfoImage">
                 <img src="./mainPageImage/pressure.png" alt="PressureImage" class="pressureImage">
                 <img src="./mainPageImage/humidity.png" alt="humidityImage" class="humidityImage">
                 <img src="./mainPageImage/windSpeed.png" alt="windSpeedImage" class="windSpeedImage">
             </div>
 
-            <!-- climate Render and units -->
             <div id="climateRenderUnits">
 
-                <!-- wind pressure -->
                 <div id="pressure">
                     <div id="pressureRender">--</div>
                     <div id="pressureUnit">M/B</div>
                 </div>
 
-                <!-- humidity -->
                 <div id="humidity">
                     <div id="humidityRender">--</div>
                     <div id="pressureUnit">%</div>
                 </div>
-
-                <!-- wind speed -->
+                
                 <div id="windSpeed">
                     <div id="windSpeedRender">--</div>
                     <div id="windSpeedUnit">M/S</div>
                 </div>
             </div>
-            <!-- climate type in text -->
+
             <div class="climateInfoText">
                 <p>Pressure</p>
                 <p>Humidity</p>
@@ -86,14 +71,12 @@
             </div>
         </div>
 
-        <!-- future weather forecasting -->
         <p id="forMore">
             5 Days Weather Forecasts (Slide)
         </p>
         <div id="moreForecasts">
 
 
-            <!-- day one forecasts -->
             <div id="one">
                 <div id="nextDate1">YYYY-MM-DD</div>
                 <img src="./mainPageImage/weatherImage.gif" alt="weatherimage" class="nextWeatherImage">
@@ -101,7 +84,6 @@
             </div>
 
 
-            <!-- day two forecasts -->
             <div id="two">
                 <div id="nextDate2">YYYY-MM-DD</div>
                 <img src="./mainPageImage/weatherImage.gif" alt="weatherimage" class="nextWeatherImage">
@@ -109,7 +91,6 @@
             </div>
 
 
-            <!-- day threee forecasts -->
             <div id="three">
                 <div id="nextDate3">YYYY-MM-DD</div>
                 <img src="./mainPageImage/weatherImage.gif" alt="weatherimage" class="nextWeatherImage">
@@ -117,7 +98,6 @@
             </div>
 
 
-            <!-- day four forecasts -->
             <div id="four">
                 <div id="nextDate4">YYYY-MM-DD</div>
                 <img src="./mainPageImage/weatherImage.gif" alt="weatherimage" class="nextWeatherImage">
@@ -125,7 +105,6 @@
             </div>
 
 
-            <!-- day five forecasts -->
             <div id="five">
                 <div id="nextDate5">YYYY-MM-DD</div>
                 <img src="./mainPageImage/weatherImage.gif" alt="weatherimage" class="nextWeatherImage">
@@ -135,5 +114,5 @@
     </div>
     <script src="script.js" defer> </script>
 </body>
-
+    
 </html>

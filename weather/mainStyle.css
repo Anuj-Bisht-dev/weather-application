@@ -18,7 +18,6 @@ body {
   height: 550px;
 }
 
-/* search bar */
 #search {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 8px;
@@ -27,14 +26,14 @@ body {
   justify-content: space-between;
 }
 
-#search > #searchBox {
+#searchBox {
   width: 180px;
   height: 25px;
   background-color: transparent;
   outline: none;
   border: none;
 }
-#search > #searchButton {
+#searchButton {
   background: url(./mainPageImage/buttonAnimation.gif) center/cover;
   width: 80px;
   font-weight: bold;
@@ -44,55 +43,51 @@ body {
   cursor: pointer;
 }
 
-/* location area */
 #location {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#location > #locationImage {
+#locationImage {
   width: 45px;
   margin-inline: -10px;
 }
-#location > #locationText {
+#locationText {
   color: purple;
   font-weight: bold;
   font-size: 20px;
 }
 
-/* current Date */
 #date {
   display: flex;
   justify-content: center;
   margin: -10px;
 }
 
-/* temperature */
 #temperature {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-#temperature > #degreeCelcius {
+#degreeCelcius {
   color: purple;
   font-size: 60px;
   font-weight: bold;
 }
-#temperature > #degreeCelciusText {
+#degreeCelciusText {
   width: 20px;
   height: 20px;
   border: 6px solid rgb(100, 0, 100);
   padding: 0;
   border-radius: 50px;
 }
-#cloud > #cloudImage {
+#cloudImage {
   background-color: transparent;
   width: 100px;
   position: absolute;
   margin: -70px 205px;
 }
 
-/* climate condition */
 #climate {
   color: white;
   display: flex;
@@ -102,7 +97,6 @@ body {
   font-size: 19px;
 }
 
-/* climate information box */
 #climateInfo {
   background-color: rgba(255, 255, 255, 0.7);
   height: 70px;
@@ -117,8 +111,7 @@ body {
   display: flex;
   gap: 80px;
 }
-.pressureImage,
-.windSpeedImage {
+.pressureImage, .windSpeedImage {
   width: 20px;
   height: 20px;
   background-color: rgb(136, 6, 197);
@@ -143,9 +136,7 @@ body {
   bottom: 75px;
   font-size: 16px;
 }
-#pressure,
-#humidity,
-#windSpeed {
+#pressure, #humidity, #windSpeed {
   display: flex;
   gap: 5px;
 }
@@ -157,7 +148,6 @@ body {
   bottom: 165px;
 }
 
-/* for more weather forcating */
 #forMore {
   display: flex;
   justify-content: center;
@@ -171,21 +161,13 @@ body {
   overflow-x: scroll;
   scrollbar-width: none;
 }
-#one,
-#two,
-#three,
-#four,
-#five {
+#one, #two, #three, #four, #five {
   background-color: rgba(255, 255, 255, 0.3);
   width: 100px;
   height: 130px;
   border-radius: 30px;
 }
-#nextDate1,
-#nextDate2,
-#nextDate3,
-#nextDate4,
-#nextDate5 {
+#nextDate1, #nextDate2, #nextDate3, #nextDate4, #nextDate5 {
   background-color: white;
   margin: 12px 8px;
   padding: 5px;
@@ -202,21 +184,13 @@ body {
   margin: -40px -10px;
   width: 120px;
 }
-#nextTemp1,
-#nextTemp2,
-#nextTemp3,
-#nextTemp4,
-#nextTemp5 {
+#nextTemp1, #nextTemp2, #nextTemp3, #nextTemp4, #nextTemp5 {
   font-weight: bold;
   display: flex;
   justify-content: center;
   margin-top: 1px;
 }
-#nextTemp1::after,
-#nextTemp2::after,
-#nextTemp3::after,
-#nextTemp4::after,
-#nextTemp5::after {
+#nextTemp1::after, #nextTemp2::after, #nextTemp3::after, #nextTemp4::after, #nextTemp5::after {
   content: '';
   display: inline-block;
   width: 5px;
